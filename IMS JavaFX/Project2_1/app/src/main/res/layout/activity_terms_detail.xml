@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsDetail">
+
+    <!--<TextView-->
+        <!--android:id="@+id/titleText"-->
+        <!--style="@style/Base.TextAppearance.AppCompat.Large"-->
+        <!--android:layout_width="171dp"-->
+        <!--android:layout_height="44dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/term_title" />-->
+
+    <EditText
+        android:id="@+id/termsTitle"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="text"
+        android:autofillHints="term name" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/startText"-->
+        <!--style="@style/Base.TextAppearance.AppCompat.Large"-->
+        <!--android:layout_width="170dp"-->
+        <!--android:layout_height="46dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/termsTitle"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/term_start_date" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/termsStart"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/termsTitle"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="text"-->
+        <!--tools:text="@tools:sample/date/mmddyy" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/termsEnd"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/termsStart"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="text"-->
+        <!--tools:text="@tools:sample/date/mmddyy" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/endText"-->
+        <!--style="@style/Base.TextAppearance.AppCompat.Large"-->
+        <!--android:layout_width="168dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/termsStart"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/anticipated_end" />-->
+
+    <Button
+        android:id="@+id/termsSaveButton"
+        android:layout_width="132dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/termsDeleteButtom"
+        android:layout_marginStart="26dp"
+        android:text="@string/save"
+        android:onClick="showSaveToast"/>
+
+    <Button
+        android:id="@+id/termsDeleteButtom"
+        android:layout_width="133dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="158dp"
+        android:text="@string/delete" />
+
+
+</RelativeLayout>

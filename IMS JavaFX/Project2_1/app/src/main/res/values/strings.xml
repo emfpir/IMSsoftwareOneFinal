@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="title_activity_terms">Terms</string>
+    <string name="home_welcome">This is the home screen for you new student schedule application. You set your terms, courses, and assessments with alerts.</string>
+    <string name="term_start_date">Term Start Date:</string>
+    <string name="anticipated_end">Anticipated End:</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="term_title">Term Title:</string>
+    <string name="enter_term_here">Enter term here</string>
+</resources>

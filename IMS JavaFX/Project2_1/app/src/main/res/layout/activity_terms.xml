@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Terms">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:gravity="top"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--android:padding="16dp"-->
+        <!--android:theme="?attr/actionBarTheme"-->
+        <!--app:title="Terms"/>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/termsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<at.markushi.ui.CircleButton-->
+        <!--android:layout_width="64dp"-->
+        <!--android:layout_height="64dp"-->
+        <!--app:cb_color="@color/primary"-->
+        <!--app:cb_pressedRingWidth="8dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:src="@drawable/ic_action_add"-->
+        <!--android:onClick="openEditorForNewTerm"/>-->
+
+</RelativeLayout>
